@@ -46,12 +46,12 @@ h4 {
 /* Cd */
 
 .cd {
-    width: 200px;
+    max-width: 200px !important;
     margin: auto;
 }
 
 .cd--thumb {
-    background-image: url("/MusicPlayer/assets/img/atmyworst.jpg") ;
+    background-image: url("/assets/img/comthru.jpg") ;
     padding-top: 100%;
     border-radius: 50%;
     background-repeat: no-repeat;
