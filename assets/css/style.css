@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+.player {
+    position: relative;
+    margin: auto;
+    max-width: 480px;
+    border-radius: 5px;
+}
+
+.dashboard {
+    padding: 16px 16px 14px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 448px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Header */
+
+h2 {
+    color: #ec1f55;
+    margin-bottom: 12px;
+    font-size: 18px
+}
+
+h4 {
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Cd */
+
+.cd {
+    width: 200px;
+    margin: auto;
+}
+
+.cd--thumb {
+    background-image: url("/MusicPlayer/assets/img/atmyworst.jpg") ;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Control */
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.active {
+    color: #ec1f55;
+}
+
+.btn--play {
+    font-size: 60px;
+    border-radius: 50%;
+    color: #ec1f55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player.playing .icon--pause {
+    display: block;
+}
+
+.player.playing .icon--play {
+    display: none;
+}
+
+.btn .icon--pause {
+    display: none;
+}
+
+.btn-random.active,
+.btn-repeat.active {
+  color: darkblue;
+}
+
+.progress {
+    width: 100%;
+    overflow: hidden;
+    -webkit-appearance: none;
+    height: 6px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+.progress:hover::-webkit-slider-thumb {
+    /* background: #ec1f55; */
+    /* box-shadow: -500px 0 0 500px #ec1f55; */
+}
+
+.progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 12px;
+    height: 6px;
+    /* background: #ec1f55; */
+    box-shadow: -500px 0 0 500px #ec1f55;
+}
+
+/* Playlist */
+
+.playlist {
+    padding: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 421px;
+    cursor: pointer;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+}
+
+.song.active {
+    background-color: #ec1f55;
+}
+
+.song:active {
+    opacity: 0.8;
+}
+
+.song.active .title,
+.song.active .author,
+.song.active .option {
+  color: #fff;
+}
+
+.song .thumb {
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.song .body {
+    flex: 1;
+    padding: 0 16px;
+}
+
+.song .title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #333;
+}
+
+.song .author {
+    font-size: 12px;
+    color: #999;
+}
+  
+.song .option {
+    padding: 16px 8px;
+    color: #999;
+    font-size: 18px;
+}
+
+body {
+    overflow: hidden overlay;
+    overscroll-behavior: contain;
+    background: url(https://cdn.wallpapersafari.com/77/5/h8u3Vk.jpg) fixed no-repeat;
+    background-size: cover;
+    will-change: scroll-position;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body:hover::-webkit-scrollbar {
+    display: block;
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+
+@media (min-width: 320px) and (max-width: 559px) {
+    .dashboard {
+        padding: 10px;
+        width: 95%;
+    }
+}
