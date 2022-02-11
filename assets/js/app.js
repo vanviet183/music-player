@@ -23,56 +23,56 @@ const app = {
         {
             name: 'Comethru',
             singer: 'Jeremy Zucker',
-            path: '/assets/audio/comethru.mp3',
-            image: '/assets/img/comthru.jpg'
+            path: 'assets/audio/comethru.mp3',
+            image: 'assets/img/comthru.jpg'
         },
         {
             name: 'At My Worst',
             singer: 'Pink Weak',
-            path: '/assets/audio/atmyworst.mp3',
-            image: '/assets/img/atmyworst.jpg'
+            path: 'assets/audio/atmyworst.mp3',
+            image: 'assets/img/atmyworst.jpg'
         },
         {
             name: 'Bad Liar',
             singer: 'Imagine Dragons',
-            path: '/assets/audio/badliar.mp3',
-            image: '/assets/img/badliar.jpg'
+            path: 'assets/audio/badliar.mp3',
+            image: 'assets/img/badliar.jpg'
         },
         {
             name: 'Dance Monkey',
             singer: 'Tone and I',
-            path: '/assets/audio/dancemonkey.mp3',
-            image: '/assets/img/dancemonkey.jpg'
+            path: 'assets/audio/dancemonkey.mp3',
+            image: 'assets/img/dancemonkey.jpg'
         },
         {
             name: 'Believer',
             singer: 'Imagine Dragons',
-            path: '/assets/audio/believer.mp3',
-            image: '/assets/img/believer.jpeg'
+            path: 'assets/audio/believer.mp3',
+            image: 'assets/img/believer.jpeg'
         },
         {
             name: 'Đường Tôi Chở Em Về',
             singer: 'buitruonglinh x Freak D',
-            path: '/assets/audio/duongtoichoemve.mp3',
-            image: '/assets/img/duongtoichoemve.jpg'
+            path: 'assets/audio/duongtoichoemve.mp3',
+            image: 'assets/img/duongtoichoemve.jpg'
         },
         {
             name: 'Memories',
             singer: 'Maroon 5',
-            path: '/assets/audio/memories.mp3',
-            image: '/assets/img/memories.jpg'
+            path: 'assets/audio/memories.mp3',
+            image: 'assets/img/memories.jpg'
         },
         {
             name: 'Past Live',
             singer: 'sapientdream',
-            path: '/assets/audio/pastlive.mp3',
-            image: '/assets/img/pastlive.jpg'
+            path: 'assets/audio/pastlive.mp3',
+            image: 'assets/img/pastlive.jpg'
         },
         {
             name: 'That Girl',
             singer: 'Olly Murs',
-            path: '/assets/audio/thatgirl.mp3',
-            image: '/assets/img/thatgirl.jpg'
+            path: 'assets/audio/thatgirl.mp3',
+            image: 'assets/img/thatgirl.jpg'
         }
     ],
 
